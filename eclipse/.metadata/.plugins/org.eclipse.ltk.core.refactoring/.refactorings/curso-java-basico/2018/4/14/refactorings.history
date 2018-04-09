@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;udacity.lessons1&apos; to &apos;udacity-lessons1/src&apos;&#x0D;&#x0A;- Original project: &apos;curso-java-basico&apos;&#x0D;&#x0A;- Destination element: &apos;udacity-lessons1/src&apos;&#x0D;&#x0A;- Original element: &apos;curso-java-basico/src/udacity.lessons1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=udacity-lessons1/src" element1="/src&lt;udacity.lessons1" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1522841210456" version="1.0"/>
+</session>
