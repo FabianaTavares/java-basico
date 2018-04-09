@@ -1,0 +1,35 @@
+package loiane.exercicios17;
+
+import java.util.Scanner;
+
+public class exercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		  	1. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o
+			usuário informe um valor válido
+		 */
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Por favor insira uma nota de 0 a 10: ");
+		double nota = scan.nextDouble();
+		
+		boolean notaValida = false;
+		do {
+			
+			if(nota >= 0 && nota <= 10) {
+				notaValida = true;
+				System.out.println("Você digitou: ." + nota);
+			}else {
+				System.out.println("Valor Inválido");
+			}
+		}while(!notaValida);
+		
+			
+
+	}
+
+}
