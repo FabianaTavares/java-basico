@@ -1,0 +1,34 @@
+package loiane.exercicios15;
+
+import java.util.Scanner;
+
+public class exercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 	3. Faça um Programa que verifique se uma letra digitada é "F" ou "M".
+			Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+		 */
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Entre com a letra do Sexo: ");
+		String sexo = scan.next();
+		
+		/*
+		 * String é uma classe e não se usa comparadores ==, é feito de outra forma a comparação de strings
+		 */
+		
+		if(sexo.equalsIgnoreCase("F")) {
+			System.out.println("O Sexo digitado é Feminino.");
+		}else if(sexo.equalsIgnoreCase("M")) {
+			System.out.println("O Sexo digitado é Masculino.");
+		}else {
+			System.out.println("O Sexo Inválido.");
+		}
+		
+	}
+
+}

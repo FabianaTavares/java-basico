@@ -1,0 +1,27 @@
+package loiane.exercicios15;
+
+import java.util.Scanner;
+
+public class exercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * 1. Faça um Programa que peça dois números e imprima o maior deles.
+		 */
+
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Entre com o primeiro numero: ");
+		int num1 = scan.nextInt();
+		
+		System.out.println("Entre com o segundo numero: ");
+		int num2 = scan.nextInt();
+		
+		
+		
+		
+	}
+
+}

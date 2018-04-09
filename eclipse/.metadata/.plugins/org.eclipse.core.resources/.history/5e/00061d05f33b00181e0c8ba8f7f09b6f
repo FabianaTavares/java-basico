@@ -1,0 +1,16 @@
+package loiane.exercicios15;
+
+public class exercicio8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * 8. Faça um programa que pergunte o preço de três produtos e informe
+qual produto você deve comprar, sabendo que a decisão é sempre
+pelo mais barato.
+		 */
+
+	}
+
+}
