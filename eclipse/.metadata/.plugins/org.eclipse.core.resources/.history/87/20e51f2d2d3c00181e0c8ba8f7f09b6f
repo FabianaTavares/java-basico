@@ -1,0 +1,29 @@
+package loiane.exercicios43;
+
+public class ContaBancaria {
+
+	
+	String nomeCliente;
+	int numConta;
+	double Saldo;
+	public String getNomeCliente() {
+		return nomeCliente;
+	}
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
+	public int getNumConta() {
+		return numConta;
+	}
+	public void setNumConta(int numConta) {
+		this.numConta = numConta;
+	}
+	public double getSaldo() {
+		return Saldo;
+	}
+	public void setSaldo(double saldo) {
+		Saldo = saldo;
+	}
+	
+	
+}

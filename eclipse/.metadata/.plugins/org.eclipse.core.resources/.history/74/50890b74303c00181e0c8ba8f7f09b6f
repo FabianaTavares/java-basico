@@ -1,0 +1,34 @@
+package loiane.exercicios43;
+
+public class contaPoupanca extends ContaBancaria {
+	
+	private int diaRendimento;
+	
+	public int getDiaRendimento() {
+		return diaRendimento;
+	}
+
+	public void setDiaRendimento(int diaRendimento) {
+		this.diaRendimento = diaRendimento;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		
+		String s = "";
+		s += "diaRendimento: " + diaRendimento;
+		s += "numConta: " + numConta;
+		s += "saldo: " + saldo;
+		
+		return s;
+		
+		return super.toString();
+	}
+	
+	public void calcularNovoSaldo(double taxaRendimentoPoupanca) {
+		
+	}
+	
+	
+}

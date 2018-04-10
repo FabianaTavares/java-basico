@@ -1,0 +1,20 @@
+package loiane.exercicios52;
+
+public class Agenda {
+	private Contato[] contatos;
+	
+	public Agenda() {
+		contatos = new Contato[5];
+	}
+	
+	@Override
+	public String toString() {
+		
+		String s = "";
+		for(Contato c : contatos) {
+			s += c.toString() + "\n";
+		}
+		
+		
+	}
+}

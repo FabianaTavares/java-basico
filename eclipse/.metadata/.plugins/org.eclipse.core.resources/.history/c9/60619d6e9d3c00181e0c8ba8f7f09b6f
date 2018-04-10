@@ -1,0 +1,11 @@
+package loiane.exercicios52;
+
+public class Agenda {
+	private Contato[] contatos;
+	
+	public Agenda() {
+		contatos = new Contato[5];
+	}
+	
+	
+}

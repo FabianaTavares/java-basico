@@ -1,0 +1,9 @@
+package loiane.exercicios43;
+
+public class ContaBancaria {
+
+	
+	String nomeCliente;
+	Int numConta;
+	double Saldo;
+}
